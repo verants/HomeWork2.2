@@ -18,17 +18,10 @@ protocol ColorSettingsViewControllerDelegate {
 
 class MainViewController: UIViewController {
 
-	var redColor: Float = 0
-	var greenColor: Float = 0
-	var blueColor: Float = 0
-
-
-
-	// MARK: - Lifecycle
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
+	// MARK: - Properties
+	private var redColor: Float = 1
+	private var greenColor: Float = 1
+	private var blueColor: Float = 1
 
 	// MARK: - Override Methods
 	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -39,16 +32,16 @@ class MainViewController: UIViewController {
 		colorSettingsVC.delegate = self
 	}
 
-
+	// MARK: - @IBActions
+	// требуется для перехода назад по кнопке Done
 	@IBAction func unwindSegue(segue: UIStoryboardSegue) {
 	}
 
 }
 
-// MARK: - Extensions
+// MARK: - Extension
 extension MainViewController: ColorSettingsViewControllerDelegate {
-	// не знаю как, но эта реализация протокола позволяет
-	// сохранить положение слайдеров при переходе на второй экран
+	// не знаю как, но такая реализация протокола позволяет сохранить положение слайдеров при переходе на второй экран
 	var redValue: Float {
 		redColor
 	}
@@ -65,8 +58,7 @@ extension MainViewController: ColorSettingsViewControllerDelegate {
 									   blue:CGFloat(blueValue),
 									   alpha: 1)
 
-		// не знаю как, но это присвоение позволяет
-		// сохранить положение слайдеров при переходе на второй экран
+		// не знаю как, но это присвоение позволяет сохранить положение слайдеров при переходе на второй экран
 		redColor = redValue
 		greenColor = greenValue
 		blueColor = blueValue
