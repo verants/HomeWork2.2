@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3B54B9A3260F4B6C004F75A5 /* HomeWork2.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWork2.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B54B9A3260F4B6C004F75A5 /* ColorSettingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSettingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B54B9A6260F4B6C004F75A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B54B9A8260F4B6C004F75A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3B54B9AA260F4B6C004F75A5 /* ColorSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSettingsViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		3B54B99A260F4B6C004F75A5 = {
 			isa = PBXGroup;
 			children = (
-				3B54B9A5260F4B6C004F75A5 /* HomeWork2.2 */,
+				3B54B9A5260F4B6C004F75A5 /* ColorSettingsApp */,
 				3B54B9A4260F4B6C004F75A5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		3B54B9A4260F4B6C004F75A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B54B9A3260F4B6C004F75A5 /* HomeWork2.2.app */,
+				3B54B9A3260F4B6C004F75A5 /* ColorSettingsApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3B54B9A5260F4B6C004F75A5 /* HomeWork2.2 */ = {
+		3B54B9A5260F4B6C004F75A5 /* ColorSettingsApp */ = {
 			isa = PBXGroup;
 			children = (
 				3BC4C6A126224DED0016DC40 /* Views */,
@@ -63,7 +63,7 @@
 				3BC4C6A226224DFD0016DC40 /* Supporting */,
 				3BC4C6A426224E340016DC40 /* Resources */,
 			);
-			path = HomeWork2.2;
+			path = ColorSettingsApp;
 			sourceTree = "<group>";
 		};
 		3BC4C69F26224DD00016DC40 /* ViewControllers */ = {
@@ -105,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B54B9A2260F4B6C004F75A5 /* HomeWork2.2 */ = {
+		3B54B9A2260F4B6C004F75A5 /* ColorSettingsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B54B9B7260F4B6F004F75A5 /* Build configuration list for PBXNativeTarget "HomeWork2.2" */;
+			buildConfigurationList = 3B54B9B7260F4B6F004F75A5 /* Build configuration list for PBXNativeTarget "ColorSettingsApp" */;
 			buildPhases = (
 				3B54B99F260F4B6C004F75A5 /* Sources */,
 				3B54B9A0260F4B6C004F75A5 /* Frameworks */,
@@ -117,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = HomeWork2.2;
+			name = ColorSettingsApp;
 			productName = HomeWork2.2;
-			productReference = 3B54B9A3260F4B6C004F75A5 /* HomeWork2.2.app */;
+			productReference = 3B54B9A3260F4B6C004F75A5 /* ColorSettingsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3B54B99E260F4B6C004F75A5 /* Build configuration list for PBXProject "HomeWork2.2" */;
+			buildConfigurationList = 3B54B99E260F4B6C004F75A5 /* Build configuration list for PBXProject "ColorSettingsApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B54B9A2260F4B6C004F75A5 /* HomeWork2.2 */,
+				3B54B9A2260F4B6C004F75A5 /* ColorSettingsApp */,
 			);
 		};
 /* End PBXProject section */
@@ -324,12 +324,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RQ3F7K5P3Y;
-				INFOPLIST_FILE = HomeWork2.2/Supporting/Info.plist;
+				INFOPLIST_FILE = ColorSettingsApp/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.HomeWork2-2";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.ColorSettingsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -343,12 +343,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RQ3F7K5P3Y;
-				INFOPLIST_FILE = HomeWork2.2/Supporting/Info.plist;
+				INFOPLIST_FILE = ColorSettingsApp/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.swiftbook.HomeWork2-2";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.swiftbook.ColorSettingsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -358,7 +358,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B54B99E260F4B6C004F75A5 /* Build configuration list for PBXProject "HomeWork2.2" */ = {
+		3B54B99E260F4B6C004F75A5 /* Build configuration list for PBXProject "ColorSettingsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B54B9B5260F4B6F004F75A5 /* Debug */,
@@ -367,7 +367,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B54B9B7260F4B6F004F75A5 /* Build configuration list for PBXNativeTarget "HomeWork2.2" */ = {
+		3B54B9B7260F4B6F004F75A5 /* Build configuration list for PBXNativeTarget "ColorSettingsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B54B9B8260F4B6F004F75A5 /* Debug */,
